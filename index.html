@@ -3,103 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
-    <title>May Ann Besina - Portfolio</title>
+    <meta
+      name="description"
+      content="QA Automation Engineer specializing in Playwright, API testing, CI/CD integration, and scalable end-to-end automation frameworks."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>May Ann Besina | QA Automation Engineer</title>
   </head>
   <body>
-    <div class="container">
-      <aside class="sidebar">
-        <div class="profile-img">
-          <img src="./images/may.jpg" alt="May Ann Besina" />
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav-logo" href="#hero">May Ann Besina</a>
+        <div class="nav-links">
+          <a href="#expertise">Expertise</a>
+          <a href="#projects">Projects</a>
+          <a href="#stats">GitHub</a>
+          <a href="#contact">Contact</a>
         </div>
-        <h1>May Ann Besina</h1>
-        <p>QA Automation Engineer</p>
-        <div class="contact-info">
-          <div>
-            <a href="mailto:mayannbesina@gmail.com" >
-              <span class='contact-links'>&#9993;</span> mayannbesina@gmail.com
-            </a>
-          </div>
-          <div>
-            <a href="https://maps.app.goo.gl/JncoCbXcUa5iKzfL8" target="_blank">
-              <span class='contact-links'>&#127760;</span> Cebu, Philippines
-            </a>
-          </div>
-        </div>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/may-ann-corugda-besina" aria-label="LinkedIn"> 
-              <img src="./images/LI-In-Bug.png" width="30" height="30" alt="LinkedIn Logo">
-            </a>
-            <a href="https://github.com/mbesina" aria-label="GitHub">
-              <img src="./images/github-mark-white.svg" width="30" height="30" alt="GitHub Logo">
-            </a>
-        </div>
-      </aside>
+      </nav>
+    </header>
 
-      <main class="main-content">
-        <section>
-          <h2>About Me</h2>
-          <p>14 years in Information Technology as a Quality Assurance Engineer within the fields of eCommerce (Magento), Financial Services, Real Estate, Software  as a Service (SaaS), and Retail Industry with various roles from Manual, Automation and Lead QA.	</p>
-          <p>Expertise in building automation framework from scratch for UI and API Testing using Cypress, Typescript, Cucumber (BDD) within implementation of CI/CD using GitHub Actions.</p>
-          <p>Works with remote teams from USA, Romania, Ukraine, Moldova, Estonia, Spain, Germany,  France, and India with CEFR C2-level verbal and written communication.</p>
-        </section>
-        <section>
-          <h2>Skills</h2>
-          <div class="grid-container">
-            <div class="grid-item">
-              <h3>Cypress Automation Framework</h3>
-              <p>
-                Cypress Automation Framework
-                This framework is built for end-to-end testing using Cypress 13, TypeScript, and Cucumber. </br >It follows the Page Object Model (POM) pattern and incorporates tools like ESLint, and Prettier. </br >
-                <a href="https://github.com/mbesina/cypress_13_cucumber_typescript">Here is the repository</a>.
-              </p>
-            </div>
-            <div class="grid-item">
-              <h3>Playwright Automation</h3>
-              <p>
-                This framework is built for end-to-end testing using Playwright version 1.48.2 and TypeScript. </br >It follows the Page Object Model (POM) pattern and incorporates tools like ESLint, Prettier.
-                <a href="https://github.com/mbesina/playwright_automation">Here is the repository</a>.
-              </p>
-              <p>
-                Here is another <a href="https://github.com/mbesina/playwright-ui-tests">repository link</a> used for practicing Playwright using the recommend user-facing attributes.
-              </p>
-            </div>
-            <div class="grid-item">
-              <h3>API Testing and Automation</h3>
-              <p>
-                Experienced in API testing with REST and GraphQL using Postman, and Apollo Server.
-              </p>
-              <p>
-                Skilled in writing basic API <b>Postman</b> automation test scripts, managing environment variables, and implementing CI/CD pipelines using <b>Newman</b> and GitHub Actions. 
-                Here is the <a href="https://github.com/mbesina/postman-newman-cicd-contact-api">repository link</a>.
-              </p>
-            </div>
-            <div class="grid-item">
-              <h3>Manual Testing</h3>
-                <ul>
-                    <li>Strong Knowledge of all phases of Software Development Life Cycle, Agile and Scrum.</li>
-                    <li>Experience in writing and manual execution of End-To-End testing, Integration testing, Regression testing, Exploratory testing, Black Box testing, Smoke testing, Sanity testing, and User Acceptance testing.</li>
-                    <li>Proficient in Mobile testing and Cross-browser testing.</li>
-                </ul>
-            </div>
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <p class="eyebrow">QA Automation Engineer | Test Automation | Playwright | Cypress | CI/CD</p>
+          <h1>Hi, I'm May Ann Besina</h1>
+          <p class="hero-copy">
+            QA Automation Engineer focused on building scalable, reliable, and
+            maintainable test automation frameworks.
+          </p>
+          <ul class="specialties" aria-label="Specialized in">
+            <li>Playwright Automation</li>
+            <li>Cypress Automation</li>
+            <li>BDD</li>
+            <li>API Testing</li>
+            <li>CI/CD Pipelines</li>
+            <li>End-to-End Testing</li>
+            <li>Quality Engineering</li>
+          </ul>
+          <p class="hero-note">
+            Currently building modern automation solutions using TypeScript,
+            JavaScript, and GitHub Actions.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a
+              class="button"
+              href="https://github.com/mbesina"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a class="button" href="mailto:mayannbesina@gmail.com">Contact Me</a>
           </div>
-        </section>
-        <section>
-          <h2>Proficient in the use of the following tools:</h2>
-          <div class="skills-grid">
-            <p>
-              <a href="https://www.cypress.io/"><img src="./images/cypress-logo.svg" class="skills-images" width="150" height="150" alt="Cypress Logo"></a>
-              <a href="https://playwright.dev/"><img src="./images/playwright-logo.svg" class="skills-images" width="150" height="150" alt="Playwright Logo"></a>
-              <a href="https://www.typescriptlang.org/"><img src="./images/ts-logo.png" class="skills-images" width="128" height="128" alt="Typescript Logo"></a>
-              <a href="https://nodejs.org/"><img src="./images/nodejs-logo.svg" class="skills-images" width="200" height="150" alt="NodeJS Logo"></a>
-              <a href="https://git-scm.com/" ><img src="./images/git-logo.svg" class="skills-images"  width="200" height="150" alt="GIT Logo"></a>
-            </p>
+        </div>
+        <aside class="profile-card" aria-label="Profile summary">
+          <img src="./images/may.jpg" alt="May Ann Besina" />
+          <h2>May Ann Besina</h2>
+          <p>Quality Engineering &amp; Test Automation</p>
+          <div class="profile-links">
+            <a href="mailto:mayannbesina@gmail.com">mayannbesina@gmail.com</a>
+            <a
+              href="https://maps.app.goo.gl/JncoCbXcUa5iKzfL8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cebu, Philippines
+            </a>
           </div>
-          <div>
-              <h4> Other tools and technologies: Postman, Newman, VS Code, GitHub, Jira, Zephyr, TestRail, Azure DevOps, RabbitMQ, Kafka, New Relic, AWS, HeidiSQL, and Vsphere.</h4>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/may-ann-corugda-besina"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+            >
+              <img src="./images/LI-In-Bug.png" width="30" height="30" alt="" />
+            </a>
+            <a
+              href="https://github.com/mbesina"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile"
+            >
+              <img src="./images/github-mark-white.svg" width="30" height="30" alt="" />
+            </a>
           </div>
-        </section>
-      </main>
-    </div>
+        </aside>
+      </section>
+    </main>
   </body>
 </html>
